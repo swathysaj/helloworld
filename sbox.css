@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+body {
+
+    height: 100%;
+}
+.bgimage{
+    /*background-color: cornflowerblue;*/
+    height: 100%;
+    background-size: cover;
+
+
+    width:100%;
+}
+
+form{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    margin:auto;
+    width:450px;
+    height:502px;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+form:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+
+}
+img{
+    height: 32px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+.imageholder{
+    height: 78px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.email{
+    margin-left:30%;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: darkkhaki;
+}
+form{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    margin:auto;
+    width:450px;
+    height:450px;
+    padding: 30px;
+    border-radius: 5px;
+}
